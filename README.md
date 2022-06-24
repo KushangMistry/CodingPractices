@@ -6,6 +6,8 @@ FactorialRecursion.java
 FibonacciRecursion.java
 
 Day2
-PrintXPowerNRecursion
-PrintXPowerNEfficient
+PrintXPowerNRecursion.java
+PrintXPowerNEfficient.java
+TowerOfHanoiRecursion.java
+StringReverseRecursion.java
 
