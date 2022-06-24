@@ -5,5 +5,7 @@ public class HelloKush {
         System.out.println("Hello Kush!");
 
         System.out.println("Added Dev Branch");
+
+        System.out.println("This is addition: "+(2+2));
     }
 }
