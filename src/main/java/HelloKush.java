@@ -7,5 +7,8 @@ public class HelloKush {
         System.out.println("Added Dev Branch");
 
         System.out.println("This is addition: "+(2+2));
+        System.out.println("This is subtraction: "+(2-2));
+        System.out.println("This is division: "+(2/2));
+        System.out.println("This is multiplication: "+(2*2));
     }
 }
