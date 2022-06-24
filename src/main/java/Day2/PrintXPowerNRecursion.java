@@ -20,7 +20,7 @@ package Day2;
 public class PrintXPowerNRecursion {
     public static void main(String[] args) {
         int baseX = 2;
-        int powerN = 5;
+        int powerN = 0;
 
         System.out.println(calculatePower(baseX, powerN));
     }
