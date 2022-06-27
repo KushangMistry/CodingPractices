@@ -35,5 +35,6 @@ public class RemoveDuplicates {
     public static void main(String[] args){
         removeDuplicate("HELLO", 0, "");
         removeDuplicate("AADARSHHA", 0, "");
+        removeDuplicate("ABBCCDA", 0, "");
     }
 }
