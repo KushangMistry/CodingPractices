@@ -11,3 +11,7 @@ PrintXPowerNEfficient.java
 TowerOfHanoiRecursion.java
 StringReverseRecursion.java
 
+Day3
+AddRecurringXAtEnd.java
+PrintAllSubsequences.java
+RemoveDuplicates.java
