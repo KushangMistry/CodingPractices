@@ -1,5 +1,8 @@
 package Day6;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LargestMinimumCharacter {
 
     public static void main(String[] args) {
@@ -10,6 +13,8 @@ public class LargestMinimumCharacter {
         char target = 'e';
 
         System.out.println(nextGreatestLetter(charArray, target));
+
+        System.out.println(isAnagram("a", "ab"));
     }
 
     public static char nextGreatestLetter(char[] letters, char target) {
@@ -37,5 +42,29 @@ public class LargestMinimumCharacter {
         }
 
         return letters[0];
+    }
+
+    public static boolean isAnagram(String s, String t) {
+
+        List<Character> tracker = new ArrayList<>();
+
+        char[] str1 = s.toCharArray();
+
+        char[] str2 = t.toCharArray();
+
+        for(char c: str1){
+
+            tracker.add(c);
+        }
+
+        for(char c: str2){
+
+            tracker.remove(Character.valueOf(c));
+        }
+
+        if(tracker.size() > 0)
+            return false;
+        else
+            return true;
     }
 }
